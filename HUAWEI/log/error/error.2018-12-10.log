@@ -1,0 +1,5 @@
+15:30:19.998 sms [http-nio-8080-exec-1] ERROR com.example.demo.shiro.CustomRealm - role: staff name : zhangqi login system
+15:35:31.047 sms [http-nio-8080-exec-3] ERROR c.e.demo.controller.IndexController -  name : zhangqi logout system
+15:37:13.086 sms [http-nio-8080-exec-5] ERROR c.e.demo.controller.IndexController -  name : null logout system
+15:39:01.331 sms [http-nio-8080-exec-10] ERROR c.e.demo.controller.IndexController -  name : null logout system
+15:54:42.404 sms [http-nio-8080-exec-2] ERROR com.example.demo.shiro.CustomRealm - role: staff name : zhangqi login system

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:background="@drawable/my_ripple"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/categories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image_news"
+        android:text="精密空调"
+        android:textSize="16sp"
+        android:textColor="#212121"
+        android:layout_marginLeft="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image_news"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/manufacturer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="华为华为华为华为华为"
+            android:textSize="14sp"
+            android:textColor="#919191"
+            android:layout_toRightOf="@+id/text1"/>
+
+        <TextView
+            android:id="@+id/model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V718HGFD87H5241"
+            android:textSize="14sp"
+            android:textColor="#919191"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</RelativeLayout>
